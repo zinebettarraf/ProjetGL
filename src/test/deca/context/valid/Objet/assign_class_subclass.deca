@@ -1,0 +1,21 @@
+// Description:
+//    test d'affectation entre une classe et sa classe fille 
+//
+// Resultats:
+//   
+//
+// Historique:
+//    cree le 18/01/2022
+
+class A {
+    int i ;
+}
+
+class B extends A {
+    //classe vide 
+}
+{
+    A a ;
+    B b ;
+    a = b ;
+}

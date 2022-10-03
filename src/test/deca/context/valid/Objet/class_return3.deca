@@ -1,0 +1,27 @@
+// Description:
+//    test du renvoi dans une classe avec sélection
+//
+// Resultats:
+//   
+//
+// Historique:
+//    cree le 18/01/2022
+
+class A {
+    int i ;
+}
+
+class B extends A {
+    A a ;
+    A getA(){
+        return this.a;
+    }
+}
+
+{
+    B b = new B();
+    b.a = new A();
+    b.a.i = 1 ;
+}
+
+

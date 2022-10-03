@@ -1,0 +1,25 @@
+// Description:
+//    test d'une méthode qui peut pas accéder à l'instruction return 
+//
+// Resultats:
+//    
+//
+// Historique:
+//    cree le 21/01/2022
+
+class A {
+    int i = 1 ;
+    int get(){
+        this.i = 2;
+        if(1>2){
+            return this.i ;       
+        }
+    }
+}
+
+
+
+{   
+    A a= new A() ;
+    println(a.get()) ;
+}

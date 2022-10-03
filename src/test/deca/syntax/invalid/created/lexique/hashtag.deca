@@ -1,0 +1,10 @@
+// Description:
+//    test de programme incorrect lexicalement (caractères accentés)
+//
+// Resultats:
+//    ligne 10 : Erreur, caractère non reconnu
+//
+// Historique:
+//    cree le 08/01/2022
+
+#dosmth

@@ -1,0 +1,12 @@
+// Description : 
+//	 test affectation int <-- int
+// Resultats :
+//
+// Historique:
+//    cree le 08/01/2022
+//	 
+{
+	int i0;
+	int i1;
+	i0 = i1;
+}

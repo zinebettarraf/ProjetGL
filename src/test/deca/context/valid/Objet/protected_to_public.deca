@@ -1,0 +1,20 @@
+// Description:
+//    test du changement d'un champ de protégé vers public
+//
+// Resultats:
+//   
+//
+// Historique:
+//    cree le 19/01/2022
+
+class A {
+    protected int i ;
+    
+}
+class B extends A {
+    int i ;
+}
+{}
+
+
+

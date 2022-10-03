@@ -1,0 +1,19 @@
+// Description:
+//    test d'un corps de méthode ASM
+//
+// Resultats:
+//   
+//
+// Historique:
+//    cree le 24/01/2022
+
+
+class A {
+    int x;
+    void print2() asm ("WSTR \"hi \" ");
+}
+
+{
+  A a = new A();
+  a.print2();  
+}

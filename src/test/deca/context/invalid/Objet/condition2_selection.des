@@ -1,0 +1,2 @@
+The field i is declared protected and you try to get it out from  the class or a subclasse
+

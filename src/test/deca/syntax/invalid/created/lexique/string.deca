@@ -1,0 +1,12 @@
+// Description:
+//    test de programme incorrect lexicalement (guillemets simples)
+//
+// Resultats:
+//    ligne 11 : Erreur, caractère non reconnu
+//
+// Historique:
+//    cree le 08/01/2022
+
+{
+    println('hello')
+}

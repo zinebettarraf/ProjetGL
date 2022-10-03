@@ -1,0 +1,23 @@
+// Description:
+//    test d'égalite de deux variables de deux classes différente
+//
+// Resultats:
+//   
+//
+// Historique:
+//    cree le 18/01/2022
+
+class A {
+    int i ;
+}
+
+class B {
+
+}
+
+{
+    boolean c ;
+    A a = new A() ;
+    B b = new B() ;
+    c = (a == b) ;
+}

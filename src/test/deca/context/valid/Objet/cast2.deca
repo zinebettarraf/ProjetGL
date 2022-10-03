@@ -1,0 +1,23 @@
+// Description:
+//    test du cast 2
+//
+// Resultats:
+//   
+//
+// Historique:
+//    cree le 20/01/2022
+
+class A {
+    float x ;
+    void m(){
+        x = (float) (1) ;
+        this.x = (float) (4) ;
+    }
+    
+}
+
+{
+}
+
+
+

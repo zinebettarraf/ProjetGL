@@ -1,0 +1,12 @@
+// Description:
+//    test pour lecture d'entier
+//
+// Historique:
+//    cree le 15/01/2022
+
+{
+    int x = readInt();
+    float y;
+    y = readInt();
+    println(x,y);
+}

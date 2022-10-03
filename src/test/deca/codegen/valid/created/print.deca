@@ -1,0 +1,32 @@
+// Description:
+//    tests de la fonction print
+//
+// Resultats:
+//
+//  helloVamos!
+//  
+//  1
+//  2.00000e+00
+//  4
+// 
+// Historique:
+//    cree le 15/01/2022
+
+{
+   float x = 2.0 ; 
+   int a = 4 ; 
+   print("hello");
+   println("Vamos!") ;
+   println(1) ;
+
+   
+   println(x);
+
+   
+   println(a);
+
+
+
+
+}
+

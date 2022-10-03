@@ -1,0 +1,26 @@
+// Description:
+//    test de la création d'une méthode avec un paramètre non utilisé
+//
+// Resultats:
+//    ça marche
+//    ça marche
+//
+// Historique:
+//    cree le 21/01/2022
+
+class A {
+    int i;
+    void get(int j ){
+        println("ça marche");
+    }
+}
+
+
+
+{   
+    int k ;
+    A a = new A();
+    
+    a.get(k) ;
+    println("ça marche") ;
+}

@@ -1,0 +1,22 @@
+// Description:
+//    test du cast 1
+//
+// Resultats:
+//   
+//
+// Historique:
+//    cree le 20/01/2022
+
+class A {
+    int i ;
+    void m(){
+        this.i = (int) (4.20) ;
+    }
+    
+}
+
+{
+}
+
+
+

@@ -1,0 +1,18 @@
+// Description:
+//    test du syntax des conditions IfThenElse
+//
+// Resultats:
+//   
+//
+// Historique:
+//    cree le 22/01/2022
+
+{
+    float x = 4.20 ;
+    if (x < 4){
+        println("hi") ;
+    } else {
+        println("salut") ;
+        x = x + 1*2 ;
+    }
+}

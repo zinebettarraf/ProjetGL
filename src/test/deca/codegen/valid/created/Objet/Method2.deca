@@ -1,0 +1,25 @@
+// Description:
+//    test de la création d'une méthode 
+//
+// Resultats:
+//    ça marche
+//    ça marche
+//
+// Historique:
+//    cree le 21/01/2022
+
+class A {
+    int i;
+    void get(){
+        println("ça marche");
+    }
+}
+
+
+
+{   
+    A a = new A();
+    
+    a.get() ;
+    println("ça marche") ;
+}

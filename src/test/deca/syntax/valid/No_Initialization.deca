@@ -1,0 +1,17 @@
+// Description:
+//    test de la déclaration sans initialisation
+// Resultats:
+//   
+//
+// Historique:
+//    cree le 22/01/2022
+
+
+    
+{
+    float x  ;
+    int i ;
+
+
+}
+

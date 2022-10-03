@@ -1,0 +1,14 @@
+// Description:
+//    test de déclaration de classe
+//
+// Resultats:
+//   
+//
+// Historique:
+//    cree le 18/01/2022
+
+class A {
+    int i ;
+    float x = 2.5;
+}
+

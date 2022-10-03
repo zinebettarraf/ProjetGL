@@ -1,0 +1,32 @@
+// Description:
+//    test de la création d'une classe avec des champs de type booleans
+//
+// Resultats:
+//    ça marche
+//    ça marche
+//
+// Historique:
+//    cree le 21/01/2022
+
+class A {
+    boolean c1 = true ;
+    boolean c2 = false ;
+}
+
+
+
+{   
+    A a = new A() ;
+
+    if(a.c1){
+        println("ça marche") ;
+    } else {
+        println("ça marche pas") ;
+    }
+
+    if(a.c2){
+        println("ça marche pas") ;
+    } else {
+        println("ça marche") ;
+    }
+}

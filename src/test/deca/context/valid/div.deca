@@ -1,0 +1,15 @@
+// Description : 
+//	 test de l'opérateur de division
+// Resultats :
+//	
+//
+// Historique:
+//    cree le 08/01/2022
+{
+    int a;
+    int b;
+    float f;
+
+    float f1 = b / a + f / a + a / f + f / f;
+
+}

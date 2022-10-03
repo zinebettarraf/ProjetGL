@@ -1,0 +1,29 @@
+// Description:
+//    Programme minimaliste testant if / else if / else
+//
+// Resultats:
+//    
+//
+// Historique:
+//    cree le 09/01/2022
+
+{
+    
+    int x;
+    x=8;
+
+    if(x = 8){
+        println("We got If");
+    }
+    else if(x = 10){
+        println ("And An Else if");
+    }
+    else if (x = 19){
+        println("Another else if");
+    }
+    else{
+        println ("and a last else");
+    } 
+
+    
+}

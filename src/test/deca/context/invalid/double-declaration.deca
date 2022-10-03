@@ -1,0 +1,9 @@
+// Description : 
+//	 test de double declaration
+// Resultats :
+//	 8:8: Redeclaration of the variable
+
+{
+    int x;
+    int x;
+}

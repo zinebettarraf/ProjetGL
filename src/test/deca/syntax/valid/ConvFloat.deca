@@ -1,0 +1,17 @@
+// Description:
+//    test du syntax de la conversion flottants 
+//
+// Resultats:
+//   
+//
+// Historique:
+//    cree le 22/01/2022
+
+{
+        int i = 1 ; 
+        float x ;
+        x = 1 ;
+        x = x + i ;
+    
+
+}

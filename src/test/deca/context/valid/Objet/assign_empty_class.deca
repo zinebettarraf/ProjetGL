@@ -1,0 +1,16 @@
+// Description:
+//    test d'affectation d'une classe vide
+//
+// Resultats:
+//   
+//
+// Historique:
+//    cree le 18/01/2022
+
+class A {
+    //classe vide 
+}
+
+{
+    A a = new A();
+}

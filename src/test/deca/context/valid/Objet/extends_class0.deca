@@ -1,0 +1,16 @@
+// Description:
+//    test du fonctionnement de l'héritage
+//
+// Resultats:
+//   
+//
+// Historique:
+//    cree le 18/01/2022
+
+class A {
+    int i ;
+}
+
+class B extends A {
+    //classe vide 
+}

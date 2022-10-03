@@ -1,0 +1,13 @@
+// Description : 
+//	 test affectation float <-- float
+//
+// Resultats :
+//	
+// Historique:
+//    cree le 08/01/2022
+//	 
+{
+	float f0;
+	float f1;
+	f0 = f1;
+}

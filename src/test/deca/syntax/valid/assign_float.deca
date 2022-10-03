@@ -1,0 +1,16 @@
+// Description:
+//    test de l'affectation flottants
+// Resultats:
+//   
+//
+// Historique:
+//    cree le 22/01/2022
+
+
+    
+{
+    float x = 4.20 ;
+
+
+}
+

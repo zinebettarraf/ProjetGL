@@ -1,0 +1,7 @@
+// Description : 
+//	 test d'initialisation int <-- float
+// Resultats :
+//	 6:9: Non compatible assignment of expression
+{
+	int i = 0.5;
+}

@@ -1,0 +1,19 @@
+// Description:
+//    test de programme syntaxiquement incorrect (méthode dans Main)
+//
+// Resultats:
+//    13:7: no viable alternative at input 'get('
+//
+// Historique:
+//    cree le 20/01/2022
+
+
+class A  {
+    int i ;
+    get() {}
+}
+
+
+
+
+{}

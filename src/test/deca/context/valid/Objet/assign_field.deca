@@ -1,0 +1,17 @@
+// Description:
+//    test d'affectation d'un attribut d'une classe
+//
+// Resultats:
+//   
+//
+// Historique:
+//    cree le 18/01/2022
+
+class A {
+    int i ;
+    void set(int i){
+        this.i = i ;
+    }
+}
+
+{}

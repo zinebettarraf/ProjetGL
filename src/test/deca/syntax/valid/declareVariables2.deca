@@ -1,0 +1,17 @@
+// Description:
+//    test de la déclaration avec plusieurs variables
+// Resultats:
+//   
+//
+// Historique:
+//    cree le 22/01/2022
+
+
+    
+{
+    float x ,y=4.20 ;
+    int i , j = 1;
+
+
+}
+

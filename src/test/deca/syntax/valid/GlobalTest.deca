@@ -1,0 +1,30 @@
+//Description :Un Programme Global pour tester 
+//beaucoup de Fonctionnalités de la Syntaxe
+
+
+{
+    //Déclaration et initialisations
+    int x;
+    Boolean value = true;
+    String y2mht_u ;
+    x = readInt();
+
+    //if_then_else
+    if(x = 13){
+        println("we have if");
+    }
+    else if (x = 17){
+        while(value){
+            println("infini");
+        }
+    }
+    else{
+        println("the end");
+    }
+    
+    while (value) {
+    	println("infini");
+    	x = x + 2;
+    }
+
+}

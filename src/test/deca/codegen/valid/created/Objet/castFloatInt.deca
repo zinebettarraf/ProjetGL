@@ -1,0 +1,14 @@
+// Description:
+//    test du cast 1
+//
+// Resultats:
+//
+//
+// Historique:
+//    cree le 20/01/2022
+{
+  float x =2.8;
+  int y = (int)(x);
+  println(y);
+  
+ }

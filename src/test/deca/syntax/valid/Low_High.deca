@@ -1,0 +1,21 @@
+// Description:
+//    test du syntax des inégalités
+//
+// Resultats:
+//   
+//
+// Historique:
+//    cree le 22/01/2022
+
+{
+        boolean c ;
+        boolean d ;
+
+        c = 5<7 ;
+        d = 4>2 ;
+        if (1<4.20) {
+            println("hi") ;
+        }
+    
+
+}

@@ -1,0 +1,12 @@
+// Description:
+//    test de prints de chaîne invalide
+//   
+// Résultats:
+//    
+//
+// Historique:
+//    cree le 24/01/2022
+
+{
+    println("n++/*é");
+}

@@ -1,0 +1,12 @@
+// Description:
+//    test du syntax de l'affichage vide
+//
+// Resultats:
+//   
+//
+// Historique:
+//    cree le 22/01/2022
+
+{
+    println();
+}

@@ -1,0 +1,25 @@
+// Description:
+//    test lorsque une méthode dans une affectation
+//
+// Resultats:
+//    2
+//
+// Historique:
+//    cree le 21/01/2022
+
+class A {
+    int i = 2;
+    int get(){
+        return this.i ;
+    }
+}
+
+
+
+{   
+    int j ;
+    A a = new A();
+    j = a.get();
+
+    println(j) ;
+}

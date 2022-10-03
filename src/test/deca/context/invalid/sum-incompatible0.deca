@@ -1,0 +1,10 @@
+// Description : 
+//	 test d'effectuer une opération arithmétique sur les booleans
+// Resultats :
+//	 9:12: The two operands are not of the compatible types for the binary Operation
+
+{
+    int u = 10;
+
+    int v = u + true;
+}

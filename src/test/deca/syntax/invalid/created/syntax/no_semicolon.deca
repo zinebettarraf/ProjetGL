@@ -1,0 +1,13 @@
+// Description:
+//    test de programme sans point-virgule
+//
+// Resultats:
+//    13:0: missing ';' at '}'
+//
+// Historique:
+//    cree le 08/01/2022
+
+
+{   
+    int i
+}

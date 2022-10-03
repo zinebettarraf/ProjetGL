@@ -1,0 +1,14 @@
+// Description:
+//    test de programme avec opérande gauche manquante
+//
+// Resultats:
+//    13:16: extraneous input '&&' expecting {'false', 'new', 'null', 'readInt', 'readFloat', 'this', 'true', IDENT, INT, '-', '!', '(', FLOAT, STRING}
+//
+// Historique:
+//    cree le 08/01/2022
+
+{   
+    
+    
+    boolean c = && true ;
+}

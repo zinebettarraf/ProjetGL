@@ -1,0 +1,17 @@
+// Description:
+//    test de faire renvoyer dans une méthode un type qui n'existe pas 
+//
+// Resultats:
+//  11:4: The type B  is not authorized   
+//
+// Historique:
+//    cree le 20/01/2022
+
+class A  {
+    B get (){}
+}
+
+{}
+
+
+

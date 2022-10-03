@@ -1,0 +1,21 @@
+// Description:
+//    test de programme syntaxiquement incorrect (méthode dans Main)
+//
+// Resultats:
+//    20:11: extraneous input '(' expecting ';'
+//
+// Historique:
+//    cree le 20/01/2022
+
+
+class A  {
+    int i ;
+}
+
+
+
+
+{
+    A a = new A () ;
+    int get(){} 
+}

@@ -1,0 +1,13 @@
+// Description : 
+//	 test affectation boolean <-- boolean
+//
+// Resultats :
+//
+// Historique:
+//    cree le 08/01/2022
+//	 
+{
+	boolean b0;
+	boolean b1;
+	b0 = b1;
+}

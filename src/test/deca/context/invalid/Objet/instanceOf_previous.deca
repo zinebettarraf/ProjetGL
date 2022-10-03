@@ -1,0 +1,28 @@
+// Description:
+//    test instanceof
+//
+// Resultats:
+// InstanceOf must be preceded by a class type  or type Null
+//
+// Historique:
+//    cree le 20/01/2022
+
+
+
+
+
+class A  {
+    protected int i ;
+    int get(){
+         return 1;
+     }
+    
+    
+}
+
+{
+     int c ;
+     boolean b= (  c instanceof int );
+
+
+}

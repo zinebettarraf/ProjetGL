@@ -1,0 +1,24 @@
+// Description:
+//    test la condition 1 de la selection 
+//
+//The field i is declared protected and you try to get it out from  the class or a subclasse
+//
+// Historique:
+//    cree le 20/01/2022
+
+class A  {
+    protected int i ;
+    
+    
+}
+
+class B {
+     A a ;
+     int get(){
+         return a.i;
+     }
+
+}
+
+
+

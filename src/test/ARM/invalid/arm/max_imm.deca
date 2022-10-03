@@ -1,0 +1,14 @@
+// Description:
+//    test d'intervention d'immédiat ne portant pas sur 16 bits
+//   
+// Résultats:
+//    max_imm.s:11: Error: invalid constant (10001) after fixup
+//
+// Historique:
+//    cree le 24/01/2022
+
+{
+    int m = 16; 
+
+    println(m + 65537);    // m + 2**16
+}

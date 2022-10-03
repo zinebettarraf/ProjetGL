@@ -1,0 +1,42 @@
+// Description:
+//    test pour un seul opérateur arithmétique
+//
+// Resultats:
+//  2
+//  3.00000e+00
+//  
+//  2
+//  -1
+//  -1.00000e+00
+//  
+//  4
+//  4.00000e+00
+//  2.50000e-01
+//
+//  2
+//  2.00000e+00
+//  2.00000e+00
+//  2.00000e+00
+//
+// Historique:
+//    cree le 15/01/2022
+
+{
+   println(1+1);
+   println(1.5+1.5);
+
+   println(4-2);
+   println(1-2);
+   println(1-2.0);
+   
+   println(2*2);
+   println(2.0*2.0);
+   println(0.5*0.5);
+
+   println(4/2);
+   println(4.0/2.0);
+   println(4.0/2);
+   println(4/2.0);
+
+
+}

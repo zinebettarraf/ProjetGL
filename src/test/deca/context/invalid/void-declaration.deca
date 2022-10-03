@@ -1,0 +1,10 @@
+// Description : 
+//	 test de déclarer une variable de type void
+// Resultats :
+//	 9:4: we can't declare an identifier with type void
+
+
+{
+    int y;
+    void x;
+}

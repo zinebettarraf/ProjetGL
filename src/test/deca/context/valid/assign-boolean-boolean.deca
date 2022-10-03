@@ -1,0 +1,10 @@
+// Description : 
+//	 test assign boolean <-- boolean
+// Resultats :
+//	
+//
+// Historique:
+//    cree le 08/01/2022
+{
+	boolean b = true;
+}

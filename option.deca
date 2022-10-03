@@ -1,0 +1,43 @@
+class A{
+	float c ;
+
+	int fct(){
+		int y = (1 + (2 * 3));
+		return y}
+	
+}
+
+class B extends A{
+	boolean isTrue = false;
+
+	int inv(int y){
+		if ((y == 1)) {
+			(isTrue = true);
+			return 0}
+		else {
+			(isTrue = false);
+			return 0}
+	}
+	
+}
+
+class C extends B{
+	int z ;
+
+	boolean getinv(boolean bool){
+		return (bool)}
+	
+}
+
+{
+	B b = new B();
+	int retour = b.inv(548);
+	C objetC = new C();
+	boolean bool = objetC.getinv(false);
+	if (bool) {
+	}
+	else {
+	}
+	println("well done");
+}
+

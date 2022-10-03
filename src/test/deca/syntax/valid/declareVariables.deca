@@ -1,0 +1,18 @@
+// Description:
+//    Programme minimaliste utilisé pour déclarer des variables
+//    différentes, de types connus ou pas...
+//
+// Resultats:
+//   
+//
+// Historique:
+//    cree le 08/01/2022
+
+{
+        
+    int x;
+
+    newType z;
+    boolean h2_lm;
+
+}

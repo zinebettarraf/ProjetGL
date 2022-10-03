@@ -1,0 +1,17 @@
+// Description:
+//    test du syntax des hexadécimaux
+// Resultats:
+//   
+//
+// Historique:
+//    cree le 22/01/2022
+
+
+    
+{
+    float x = 0x1.FFFFFEp+0 ;
+    printlnx(x) ;
+
+
+}
+

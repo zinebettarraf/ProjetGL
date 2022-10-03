@@ -1,0 +1,9 @@
+/home/zineb/Projet_GL/src/test/java/fr/ensimag/deca/tree/ManualTestInitialGencode.java
+/home/zineb/Projet_GL/src/test/java/fr/ensimag/deca/context/TestPlusWithoutMock.java
+/home/zineb/Projet_GL/src/test/java/fr/ensimag/deca/context/TestPlusPlain.java
+/home/zineb/Projet_GL/src/test/java/fr/ensimag/deca/context/ManualTestContext.java
+/home/zineb/Projet_GL/src/test/java/fr/ensimag/deca/syntax/ManualTestSynt.java
+/home/zineb/Projet_GL/src/test/java/fr/ensimag/deca/syntax/ManualTestLex.java
+/home/zineb/Projet_GL/src/test/java/fr/ensimag/deca/tools/ManualTestSymbol.java
+/home/zineb/Projet_GL/src/test/java/fr/ensimag/deca/context/TestPlusAdvanced.java
+/home/zineb/Projet_GL/src/test/java/fr/ensimag/deca/tools/SymbolTest.java

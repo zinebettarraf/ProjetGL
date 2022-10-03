@@ -1,0 +1,7 @@
+// Description : 
+//	 test d'initialisation void <-- float
+// Resultats :
+//	 6:1: we can't declare an identifier with type void
+{
+	void n = 0.5;
+}

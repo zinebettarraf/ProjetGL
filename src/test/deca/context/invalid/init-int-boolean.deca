@@ -1,0 +1,7 @@
+// Description : 
+//	 test d'initialisation int <-- boolean
+// Resultats :
+//	 6:9: Non compatible assignment of expression
+{
+	int i = true;
+}

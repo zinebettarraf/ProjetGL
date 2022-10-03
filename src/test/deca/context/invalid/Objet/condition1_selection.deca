@@ -1,0 +1,27 @@
+// Description:
+//    test la condition 1 de la selection
+//
+// Resultats:
+//  The type of the expression to which the selection is applied must be a subtype of the
+//  current class 
+//
+// Historique:
+//    cree le 20/01/2022
+
+class A  {
+    protected int i ;
+    
+    
+}
+
+class B extends A {
+     A a ;
+     int get(){
+         return a.i;
+     }
+
+}
+
+
+
+

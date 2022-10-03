@@ -1,0 +1,64 @@
+//    Le but de ce test est d'illustrer les messages d'erreur pour monter la conformiter de notre compilateur au cahier de charges 
+
+
+class A { 
+
+    float c ;
+    int fct(){
+        int y =1+2*3;
+        return y;
+    }
+}
+
+
+class B extends A {
+
+    boolean isTrue = false ;
+    int inv(int y){
+        if(y==1){
+            isTrue=true;
+            return 0 ;
+        }
+        else{
+            isTrue=false ;
+            return 0;
+        }
+    }
+}
+class C extends B{
+    int z;
+    boolean getinv(boolean bool){
+            
+            return !bool;
+    }
+   // int y =fct();
+}
+
+{
+        
+        B b = new B();      // new int this 
+        int retour = b.inv(548);
+        C objetC= new C();
+        boolean bool = objetC.getinv(false);
+        if(bool){
+           // println("ok");
+        }
+        //println(retour);
+        println("well done");
+
+        // selection 
+        //b.t=12;
+        //b.nofct();
+        //   Cast
+
+       // int cast = (int)(2.8);
+       // float cast = (float)(8);
+       //  A a = new A() ;
+       //  C castA=(C)(a);
+       //   println(cast);
+
+
+
+       
+
+}

@@ -1,0 +1,22 @@
+// Description:
+//    test d'accéder un champ initialisé
+//
+// Resultats:
+//    1
+//
+// Historique:
+//    cree le 21/01/2022
+
+class A {
+    int i =1;
+}
+
+
+
+{   
+    A a = new A();
+   
+    println(a.i); 
+    
+
+}

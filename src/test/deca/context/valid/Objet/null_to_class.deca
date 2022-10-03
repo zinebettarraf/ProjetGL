@@ -1,0 +1,18 @@
+// Description:
+//    test de l'initialisation d'une classe avec null
+//
+// Resultats:
+//   
+//
+// Historique:
+//    cree le 19/01/2022
+
+class A {
+    
+}
+{
+    A a = null ;
+}
+
+
+

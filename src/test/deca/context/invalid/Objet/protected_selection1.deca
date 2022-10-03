@@ -1,0 +1,26 @@
+// Description:
+//    essayer d'accéder à un champ protégé par sélection 
+//
+// Resultats:
+//  20:16: The field i is declared protected and you try to get it out from  the class or a subclasse
+//
+// Historique:
+//    cree le 20/01/2022
+
+class A  {
+    protected int i ;
+    int get(){}
+    
+}
+
+class B  {
+    A a = new A();
+    void test(){
+        
+        println(a.i) ;
+    }
+}
+{}
+
+
+

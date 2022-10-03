@@ -1,0 +1,15 @@
+// Description:
+//    test du syntax de l'opérateur unitaire moins pour les flottants 
+//
+// Resultats:
+//   
+//
+// Historique:
+//    cree le 22/01/2022
+
+{
+        
+    float x = -4.20;
+    x = - 4 ;
+
+}

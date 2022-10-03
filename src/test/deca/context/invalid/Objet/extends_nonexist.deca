@@ -1,0 +1,17 @@
+// Description:
+//    test de faire renvoyer dans une méthode un type qui n'existe pas 
+//
+// Resultats:
+//  10:6: The extended class  B does not exist 
+//
+// Historique:
+//    cree le 20/01/2022
+
+class A extends B  {
+    
+}
+
+{}
+
+
+

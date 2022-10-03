@@ -1,0 +1,33 @@
+// Description:
+//    test d'opérations booléennes et comparaisons
+//   
+// Résultats:
+//    arm
+//    gnu
+//    gnu
+//    3
+//
+// Historique:
+//    cree le 24/01/2022
+
+{
+    boolean a = true;
+    boolean b = false;
+    int x;
+    
+    if (a) {
+        if ((5>3) && true) {
+            println("arm");
+        }
+        else {
+            println("notarm");
+        }
+    }
+
+    x = 1;
+    while (x < (9-6) || b) {
+        println("gnu");
+        x = x + 1;
+    }
+    println(x);
+}

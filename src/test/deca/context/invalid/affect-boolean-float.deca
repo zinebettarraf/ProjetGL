@@ -1,0 +1,9 @@
+// Description : 
+//	 test affectation boolean <-- float
+// Resultats :
+//	 8:5: Non compatible assignment of expression
+{
+	boolean b;
+	float f;
+	b = f;
+}

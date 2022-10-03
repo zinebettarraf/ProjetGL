@@ -1,0 +1,16 @@
+// Description:
+//    test de déclaration d'une méthode qui renvoit une classe
+//
+// Resultats:
+//   
+//
+// Historique:
+//    cree le 18/01/2022
+
+class A {
+    //classe vide 
+}
+
+class B {
+    A get() {}
+}

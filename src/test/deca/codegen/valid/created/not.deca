@@ -1,0 +1,43 @@
+// Description:
+//    tests sur l'opérateur not
+//
+// Resultats:
+//    NOT(a AND b sont true)
+//    c est false
+//    d est true
+//
+// Historique:
+//    cree le 15/01/2022
+
+{
+
+   
+   boolean a = true ; 
+   boolean b = false ;
+
+   boolean c = !a;
+   boolean d = !b ;
+
+    if (!(a && b) ) {
+       println("NOT(a AND b sont true)");
+   }
+   else {
+       println( "a et b true");
+   }
+
+   if (c) {
+       println("c est true");
+    }
+    else {
+        println("c est false");
+    }
+
+    if (d) {
+       println("d est true");
+    }
+    else {
+        println("d est false");
+    }
+
+
+}

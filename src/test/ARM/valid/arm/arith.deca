@@ -1,0 +1,21 @@
+// Description:
+//    test d'opérations arithmétiques sur les entiers 
+//   
+// Résultats:
+//    6
+//    7
+//
+// Historique:
+//    cree le 24/01/2022
+
+{
+    int a = 2;
+    int b = 3;
+    int c;
+    int d;
+
+    c = ((a*5 - 9%7)/4)*3;
+    d = a*b+a-b/a%b;
+    println(c);
+    println(d);
+}

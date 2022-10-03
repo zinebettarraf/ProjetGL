@@ -1,0 +1,18 @@
+// Description:
+//    test de programme syntaxiquement incorrect (fausse manière d'héritage)
+//
+// Resultats:
+//    11:16: extraneous input '{' expecting IDENT
+//
+// Historique:
+//    cree le 20/01/2022
+
+
+class A extends {
+    int i ;
+}
+
+
+{
+
+}

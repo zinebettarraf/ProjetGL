@@ -1,0 +1,17 @@
+// Description:
+//    tests des entiers
+//
+// Resultats:
+//    2
+//    
+// 
+// Historique:
+//    cree le 15/01/2022
+
+{
+   int i ; 
+   i = 2 ; 
+   println(i);
+
+}
+

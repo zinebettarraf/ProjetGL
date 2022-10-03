@@ -1,0 +1,19 @@
+// Description:
+//    test du syntax des opérateurs arithmétiques sur les entiers 
+//
+// Resultats:
+//   
+//
+// Historique:
+//    cree le 22/01/2022
+
+{
+        
+    int i = 1 ;
+    int j = 4 ;
+    int k ; 
+    k = i+j * 4 ;
+    k = k /2 ;
+    println(k);
+
+}

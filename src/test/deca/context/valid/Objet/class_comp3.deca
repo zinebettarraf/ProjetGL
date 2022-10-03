@@ -1,0 +1,21 @@
+// Description:
+//    test d'égalite de 'une variable d'une classe avec null
+//
+// Resultats:
+//   
+//
+// Historique:
+//    cree le 18/01/2022
+
+class A {
+    int i ;
+}
+
+{
+    boolean c ;
+    A a = new A() ;
+    c =  ( a == null ) ; 
+    if (c) {
+        println("bien !");
+    }
+}

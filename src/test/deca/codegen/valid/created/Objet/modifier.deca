@@ -1,0 +1,23 @@
+// Description:
+//    test de la création d'un getter 
+//
+// Resultats:
+//    2
+//
+// Historique:
+//    cree le 21/01/2022
+
+class A {
+    int i = 1 ;
+    void set(int j){
+        this.i=j ;
+    }
+}
+
+
+
+{   
+    A a= new A() ;
+    a.set(2);
+    println(a.i) ;
+}

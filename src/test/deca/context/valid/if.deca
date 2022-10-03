@@ -1,0 +1,21 @@
+// Description : 
+//	 test de condition if
+// Resultats :
+//	1.0
+//  nice math!
+//
+// Historique:
+//    cree le 08/01/2022
+{
+    int i = 1;
+    float f = 0.5;
+
+    if(true) {
+        f = f + 0.5;
+    }
+
+    if (i != f) {print("bad math");}
+    else if(f == i) {println("nice math!");}
+
+    if (i==0){print("i should print this");}
+}

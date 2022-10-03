@@ -1,0 +1,29 @@
+// Description:
+//    test de la sélection d'un attribut protégé dans une autre classe
+//
+// Resultats:
+//   
+//
+// Historique:
+//    cree le 19/01/2022
+
+class A {
+    int i ;
+
+    int get(){
+        return this.i;
+    }
+    int set(int i){
+        this.i = i ;
+    }
+    
+}
+
+{
+    A a = new A();
+    a.set(4);
+    print(a.get()) ;
+}
+
+
+

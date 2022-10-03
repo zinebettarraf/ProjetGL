@@ -1,0 +1,21 @@
+// Description:
+//    test du cast 3
+//
+// Resultats:
+//
+//
+// Historique:
+//    cree le 20/01/2022
+
+
+class A{
+
+}
+class B extends A {
+
+}
+{  
+   A a;
+   B b = (B) (a);
+    
+ }

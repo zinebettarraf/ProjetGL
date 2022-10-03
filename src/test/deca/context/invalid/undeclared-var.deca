@@ -1,0 +1,11 @@
+// Description : 
+//	 test de faire une affectation à une variable non déclarée
+// Resultats :
+//	 10:4: The variable  x  is not declarated yet
+
+
+{
+    int y = 10;
+
+    x = y;
+}

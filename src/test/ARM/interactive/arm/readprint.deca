@@ -1,0 +1,10 @@
+// Description:
+//    test invalide pour affichage  d'une lecture d'entier
+//   
+//
+// Historique:
+//    cree le 24/01/2022
+
+{
+    println(readInt());
+}

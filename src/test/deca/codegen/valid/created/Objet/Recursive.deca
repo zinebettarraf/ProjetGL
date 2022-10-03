@@ -1,0 +1,28 @@
+// Description:
+//    test d'une méthode récursive
+//
+// Resultats:
+//    10
+//
+// Historique:
+//    cree le 21/01/2022
+
+class A {
+    
+    int somme (int j){
+        if(j == 0){
+            return 0;
+        }
+        else{
+            return j+somme(j-1);
+        }
+    }
+
+}
+
+
+
+{   
+    A a= new  A();
+    println(a.somme(4)) ;
+}

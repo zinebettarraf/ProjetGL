@@ -1,0 +1,15 @@
+// Description:
+//    test de calcul flottant
+//   
+// Résultats:
+//    float_use.s:8: Error: garbage following instruction -- `mov R2,#3.5'
+//    float_use.s:9: Error: garbage following instruction -- `add R2,R2,#6.900000095367432'
+//
+// Historique:
+//    cree le 24/01/2022
+
+{
+    float a = 3.5 + 6.9;
+
+    println(a);
+}

@@ -1,0 +1,16 @@
+// Description:
+//    test du syntax d'affichage imbriqué 
+//
+// Resultats:
+//   
+//
+// Historique:
+//    cree le 22/01/2022
+
+
+    
+{
+    println("hel..\"j'ai pas le temps pour parler\"lo ?") ;
+
+}
+

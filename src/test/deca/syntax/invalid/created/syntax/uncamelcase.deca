@@ -1,0 +1,15 @@
+// Description:
+//    test de programme correct lexicalement (identifiant débutant avec un chiffre)
+//
+// Resultats:
+//    ligne 10 : Lexique correct, Erreur de syntaxe, identifiant ne peut pas débuter avec un chiffre/symbole
+//
+// Historique:
+//    cree le 08/01/2022
+
+{
+a = -b
+2funny4me = 3
+;x = 3
+y = -;x
+}

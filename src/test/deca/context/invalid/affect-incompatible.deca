@@ -1,0 +1,10 @@
+// Description : 
+//	 test affectation float <-- boolean 2
+// Resultats :
+//	 8:8: Non compatible assignment of expression
+
+{
+    float u = 1;
+    u = true;
+    
+}

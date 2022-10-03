@@ -1,0 +1,18 @@
+// Description:
+//    test de la création d'une classe avec un champ de type d'une classe
+//
+// Resultats:
+//    ça marche
+//
+// Historique:
+//    cree le 21/01/2022
+
+class A {}
+class B {
+    A a;
+}
+
+
+{
+    println("ça marche") ;
+}

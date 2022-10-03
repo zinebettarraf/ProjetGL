@@ -1,0 +1,20 @@
+class A {
+	int a = 7;
+	boolean val;
+}
+
+class B extends A{
+	A m;
+}
+
+{
+	B b = new B();
+	
+	if (b.m == null){
+		println("default value's cool");
+	}
+	
+	if (!(b.m.val)){
+		println("correct!");
+	}
+}

@@ -1,0 +1,21 @@
+{
+    int h = 4;
+    int hi = 2;
+    String m = "lol";
+    int x ;
+    int y ;
+    if ((h == 5)) {
+        print("hi");
+
+    }
+    else {
+        if ((hi == 7)) {
+            print("lolol", "hi", "hopefully \" it'll \" pass");
+        }
+        else {
+            println("whoah");
+            printx(12);
+            printlnx(17);
+        }
+    }
+}

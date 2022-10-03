@@ -1,0 +1,21 @@
+// Description:
+//    test New
+//
+// Resultats:
+//  New must be followed by a class Type
+//
+// Historique:
+//    cree le 23/01/2022
+
+
+
+
+class A  {
+    int x;    
+}
+
+class B {
+     int x ;
+     A a = new int();
+}
+

@@ -1,0 +1,102 @@
+// Description:
+//    Programme minimaliste utilisant println pour tester Hello_world
+//
+// Resultats:
+//    Hello
+//    World
+//    It actually worked
+//
+// Historique:
+//    cree le 07/01/2022
+
+//{
+	/**
+    println("Hello");
+    println("world");
+    println("it actually", "worked"); */
+    
+    
+
+//}
+
+/**
+class A extends B{
+	protected int x, y;
+	boolean lol = true;
+	boolean hi = x instanceof lol;
+	//m = 6;
+	
+	
+	int getX(){
+		return x;
+	}
+	
+	int m = (int) (y);
+	void setX (int x){
+		this.x = x;
+		while(true){x = 7;}
+	}
+}
+
+{
+	A a = new A();
+	a.setX(1);
+	println("a.getX() = ", a.getX());
+}
+*/
+
+/**
+class A{
+	protected int x = 6;
+	int getX() asm("WSTR hey;\n");
+}*/
+
+
+/**class B{
+	A obj;
+	int y = obj.x;
+} */
+
+
+class A{
+	int x = 7;
+	int z;
+}
+
+class B extends A{
+	int c = 9;
+	int x = 8;
+		
+}
+
+class C extends B {
+	A elt = new A();
+	int k = 22;
+}
+
+{
+	C a = new C();
+	println(a.elt.x);
+	println("hey");	
+	
+} 
+
+//B a = new B();
+	//println (a.x);
+
+/** PRoooobbbb
+class Points2D {
+	int x = 7;
+	int y;
+	void getX(){
+		print(x);
+	}
+}
+
+class Points3D extends Points2D {
+	int z = 6;
+	//int x = 7;
+}
+{
+	println (2);
+} */

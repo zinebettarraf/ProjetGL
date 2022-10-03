@@ -1,0 +1,14 @@
+// Description:
+//    test du syntax de l'opérateur unitaire moins pour les entiers 
+//
+// Resultats:
+//   
+//
+// Historique:
+//    cree le 22/01/2022
+
+{
+        
+    int i = -1 ; 
+
+}

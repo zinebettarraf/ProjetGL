@@ -1,0 +1,15 @@
+// Description:
+//    test invalid selection
+//
+// Resultats:
+//  The selection must relate to an object of type class
+//
+// Historique:
+//    cree le 23/01/2022 
+
+
+{
+      int x;
+      x.y=1;
+
+}

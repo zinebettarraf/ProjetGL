@@ -1,0 +1,12 @@
+// Description : 
+//	 test 1 des booleans 
+// Resultats :
+//
+//
+// Historique:
+//    cree le 08/01/2022
+{
+    boolean t = true;
+    boolean f = ! t;
+    t = (t == f);
+}

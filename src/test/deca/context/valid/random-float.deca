@@ -1,0 +1,15 @@
+// Description :
+//	 test 1 de print des flottants 
+// Resultats :
+//	171.3
+//  
+//
+// Historique:
+//    cree le 08/01/2022
+{
+    int a = 132;
+    int b = 13;
+    float f = a;
+    f = b*(a - 1) / (a%b + 112*b) + 1;
+	println(f);
+}

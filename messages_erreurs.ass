@@ -1,0 +1,238 @@
+	TSTO #18
+	BOV pile_pleine
+	ADDSP #18
+; start main program
+	LOAD #null, R0
+	STORE R0, 1(GB)
+	LOAD code.Object.equals, R0
+	STORE R0, 2(GB)
+; Vtable of class A
+	LEA 1(GB), R0
+	STORE R0, 3(GB)
+	LOAD code.Object.equals, R0
+	STORE R0, 4(GB)
+	LOAD code.A.fct, R0
+	STORE R0, 5(GB)
+; Vtable of class B
+	LEA 3(GB), R0
+	STORE R0, 6(GB)
+	LOAD code.Object.equals, R0
+	STORE R0, 7(GB)
+	LOAD code.A.fct, R0
+	STORE R0, 8(GB)
+	LOAD code.B.inv, R0
+	STORE R0, 9(GB)
+; Vtable of class C
+	LEA 6(GB), R0
+	STORE R0, 10(GB)
+	LOAD code.Object.equals, R0
+	STORE R0, 11(GB)
+	LOAD code.A.fct, R0
+	STORE R0, 12(GB)
+	LOAD code.B.inv, R0
+	STORE R0, 13(GB)
+	LOAD code.C.getinv, R0
+	STORE R0, 14(GB)
+; Main program
+; Variables declarations:
+	NEW #3, R2
+	BOV tas_plein
+	LEA 6(GB), R0
+	STORE R0, 0(R2)
+	PUSH R2
+	BSR init.B
+	POP R2
+	STORE R2, 15(GB)
+; Appel de la methodeinv
+	ADDSP #2
+	LOAD 15(GB), R2
+	STORE R2, 0(SP)
+	LOAD #548, R2
+	STORE R2, -1(SP)
+	LOAD 0(SP), R2
+	CMP #null, R2
+	BEQ dereferencement.null
+	LOAD 0(R2), R2
+	BSR 3(R2)
+	SUBSP #2
+	LOAD R0, R2
+	STORE R2, 16(GB)
+	NEW #4, R2
+	BOV tas_plein
+	LEA 10(GB), R0
+	STORE R0, 0(R2)
+	PUSH R2
+	BSR init.C
+	POP R2
+	STORE R2, 17(GB)
+; Appel de la methodegetinv
+	ADDSP #2
+	LOAD 17(GB), R2
+	STORE R2, 0(SP)
+	LOAD #0, R2
+	STORE R2, -1(SP)
+	LOAD 0(SP), R2
+	CMP #null, R2
+	BEQ dereferencement.null
+	LOAD 0(R2), R2
+	BSR 4(R2)
+	SUBSP #2
+	LOAD R0, R2
+	STORE R2, 18(GB)
+; Beginning of main instructions:
+	LOAD 18(GB), R2
+	CMP #0, R2
+	BEQ sinon1
+	BRA fin1
+sinon1:
+fin1:
+	WSTR "well done"
+	WNL
+	HALT
+; Error messages : stack
+pile_pleine:
+	WSTR "Erreur: overflow de la pile"
+	WNL
+	ERROR
+; Error messages : operations
+op_overflow:
+	WSTR "Erreur: overflow pendant le calcul"
+	WNL
+	ERROR
+io_error:
+	WSTR "Error; Input/Output error"
+	WNL
+	ERROR
+dereferencement.null:
+	WSTR "Erreur : dereferencement null"
+	WNL
+	ERROR
+castInvalid:
+	WSTR "Erreur : Invalid Cast "
+	WNL
+	ERROR
+tas_plein:
+	WSTR "Erreur : allocation impossible, tas plein"
+	WNL
+	ERROR
+	WSTR "Erreur : dereferencement de null"
+	WNL
+	ERROR
+; Classes Definitions
+init.Object:
+	RTS
+code.Object.equals:
+	TSTO #1
+	BOV pile_pleine
+	PUSH R2
+	LOAD -2(LB), R2
+	CMP -3(LB), R2
+	SEQ R0
+	POP R2
+	RTS
+; ----------------------------------------
+; --------- definition of Class : A ------------
+; ----------------------------------------
+init.A:
+	LOAD -2(LB), R1
+	LOAD #0x0.0p0, R0
+	STORE R0, 1(R1)
+	RTS
+code.A.fct:
+	TSTO #2
+	BOV pile_pleine
+	PUSH R2
+	PUSH R3
+	LOAD -2(LB), R0
+	LOAD #1, R2
+	LOAD #2, R3
+	MUL #3, R3
+	ADD R3, R2
+	STORE R2, 1(LB)
+	LOAD 1(LB), R0
+	BRA fin.A.fct
+	BRA fin2
+fin2:
+	WSTR "Erreur : method fct should not return void"
+	WNL
+	ERROR
+fin.A.fct:
+	POP R3
+	POP R2
+	RTS
+; ----------------------------------------
+; --------- definition of Class : B ------------
+; ----------------------------------------
+init.B:
+	LOAD -2(LB), R1
+	LOAD #0, R0
+	STORE R0, 2(R1)
+	PUSH R1
+	BSR init.A
+	SUBSP #1
+	LOAD -2(LB), R1
+	LOAD #0, R0
+	STORE R0, 2(R1)
+	RTS
+code.B.inv:
+	TSTO #1
+	BOV pile_pleine
+	PUSH R2
+	LOAD -2(LB), R0
+	LOAD -3(LB), R2
+	CMP #1, R2
+	BNE sinon2
+	LOAD #1, R2
+	STORE R2, 2(R0)
+	LOAD #0, R0
+	BRA fin.B.inv
+	BRA fin3
+sinon2:
+	LOAD #0, R2
+	STORE R2, 2(R0)
+	LOAD #0, R0
+	BRA fin.B.inv
+fin3:
+	BRA fin4
+fin4:
+	WSTR "Erreur : method inv should not return void"
+	WNL
+	ERROR
+fin.B.inv:
+	POP R2
+	RTS
+; ----------------------------------------
+; --------- definition of Class : C ------------
+; ----------------------------------------
+init.C:
+	LOAD -2(LB), R1
+	LOAD #0, R0
+	STORE R0, 3(R1)
+	PUSH R1
+	BSR init.B
+	SUBSP #1
+	RTS
+code.C.getinv:
+	TSTO #1
+	BOV pile_pleine
+	PUSH R2
+	LOAD -2(LB), R0
+	LOAD -3(LB), R2
+	CMP #0, R2
+	BNE result1
+	LOAD #1, R2
+	BRA result2
+result1:
+	LOAD #0, R2
+result2:
+	LOAD R2, R0
+	BRA fin.C.getinv
+	BRA fin5
+fin5:
+	WSTR "Erreur : method getinv should not return void"
+	WNL
+	ERROR
+fin.C.getinv:
+	POP R2
+	RTS
+; end main program

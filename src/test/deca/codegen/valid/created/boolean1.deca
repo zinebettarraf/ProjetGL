@@ -1,0 +1,25 @@
+// Description:
+//    tests sur les booleans
+//
+// Resultats:
+//    a est true
+//   
+//
+// Historique:
+//    cree le 15/01/2022
+
+{
+
+   
+   boolean a = true ; 
+
+
+   if (a) {
+       println("a est true");
+    }
+    else {
+        println("a est false");
+    }
+
+
+}

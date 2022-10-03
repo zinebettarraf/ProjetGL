@@ -1,0 +1,18 @@
+// Description:
+//    test de faire extension d'un type
+//
+// Resultats:
+//  10:6: The extended class  int must be of type class
+//
+// Historique:
+//    cree le 20/01/2022
+
+class A extends int {
+    int i ;
+    
+}
+
+{}
+
+
+

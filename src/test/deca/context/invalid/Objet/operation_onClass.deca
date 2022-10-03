@@ -1,0 +1,22 @@
+// Description:
+//    test de faire opération d'addition sur deux variable de type d'une classe
+//
+// Resultats:
+//  18:8: Arithmetic operations are not allowed for type class
+//
+// Historique:
+//    cree le 20/01/2022
+
+class A {
+    int i ;
+    
+}
+
+{
+    A a =new A () ; 
+    A b = new A() ;
+    a = a + b ;
+}
+
+
+

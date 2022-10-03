@@ -1,0 +1,14 @@
+// Description:
+//    test de programme avec classe comme variable
+//
+// Resultats:
+//    13:8: mismatched input 'class' expecting {'false', 'new', 'null', 'readInt', 'readFloat', 'this', 'true', IDENT, INT, '-', '!', '(', FLOAT, STRING}
+//
+// Historique:
+//    cree le 08/01/2022
+
+class A {}
+{   
+    int i ;
+    i = class ;
+}

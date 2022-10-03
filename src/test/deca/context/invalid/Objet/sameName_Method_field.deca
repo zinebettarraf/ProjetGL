@@ -1,0 +1,18 @@
+// Description:
+//    test de faire déclarer une méthode déjà utilisé comme champ
+//
+// Resultats:
+//  11:4:  The identifier entier is already used for  a  method or a field in the same class
+//
+// Historique:
+//    cree le 20/01/2022
+
+class A   {
+    void entier(){}
+    int entier;     
+}
+
+{}
+
+
+

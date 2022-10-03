@@ -1,0 +1,19 @@
+// Description:
+//    test du syntax des commentaires 
+//
+// Resultats:
+//   
+//
+// Historique:
+//    cree le 22/01/2022
+
+
+    
+    /*Mettez le commentaire que vous voulez 
+    N'oubliez pas de likez le code 
+    ciao */ { //au revoir 
+    /*J'espère que vous irez bien 
+    Bonne journée 
+    */ int i ;
+
+}

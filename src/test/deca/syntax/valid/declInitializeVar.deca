@@ -1,0 +1,23 @@
+// Description:
+//    Programme minimaliste utilisé pour déclarer et initialiser des variables
+//    différentes, de types connus ou pas...
+//
+// Resultats:
+//   
+//
+// Historique:
+//    cree le 08/01/2022
+
+{
+        
+    int x;
+    int y = 17;
+    
+    float m = 2.12;
+
+    Boolean value = true;
+        
+    s = null;
+    f = this.x;
+
+}

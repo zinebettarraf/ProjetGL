@@ -1,0 +1,12 @@
+// Description:
+//    test de programme qui fait une inclusion circulaire 
+//
+// Resultats:
+//    10:30: Circular include for file include_itself.deca
+//
+// Historique:
+//    cree le 08/01/2022
+
+#include "include_itself.deca"
+{   
+}

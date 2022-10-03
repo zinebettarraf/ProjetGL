@@ -1,0 +1,19 @@
+// Description:
+//    essayer de déclarer un champ de type void comme protégé
+//
+// Resultats:
+//  11:14: we can't declare a field with type void 
+//
+// Historique:
+//    cree le 20/01/2022
+
+class A  {
+    protected void i ;
+
+}
+
+
+{}
+
+
+

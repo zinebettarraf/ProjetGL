@@ -1,0 +1,23 @@
+// Description:
+//    essayer de renvoyer void dans une méthode 
+//
+// Resultats:
+//  14:8: The return of the method is void
+//
+// Historique:
+//    cree le 20/01/2022
+
+class A  {
+    
+    int i ;
+    void set(){
+        return 1 ;
+    }
+
+}
+
+
+{}
+
+
+

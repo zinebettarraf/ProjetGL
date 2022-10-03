@@ -1,0 +1,12 @@
+// Description:
+//    test de programme avec Main non fermé
+//
+// Resultats:
+//    13:0: missing '}' at '<EOF>
+//
+// Historique:
+//    cree le 08/01/2022
+
+
+{   
+    println("hello") ;

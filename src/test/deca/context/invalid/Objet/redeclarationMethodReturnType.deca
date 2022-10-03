@@ -1,0 +1,22 @@
+// Description:
+//    test invalid redeclaration of method with different return type
+//
+// Resultats:
+//  The method is already defined in a super class but  with a diffrent return type
+//
+// Historique:
+//    cree le 23/01/2022 
+
+class A {
+    void fct(int x){
+
+    }
+
+}
+class B extends A {
+     boolean fct(int x){
+     }
+}
+
+
+

@@ -1,0 +1,1 @@
+extraneous input 'class' expecting {'false', 'new', 'null', 'readInt', 'readFloat', 'this', 'true', IDENT, INT, '-', '!', '(', FLOAT, STRING}

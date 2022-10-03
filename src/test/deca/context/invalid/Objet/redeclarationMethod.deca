@@ -1,0 +1,20 @@
+// Description:
+//    test invalid redeclaration of method in the same class 
+//
+// Resultats:
+//  The identifier fct is already used for  a  method or a field in the same class
+//
+// Historique:
+//    cree le 23/01/2022 
+
+class A {
+    void fct(int x){
+
+    }
+    void fct(int x){}
+
+}
+
+
+
+

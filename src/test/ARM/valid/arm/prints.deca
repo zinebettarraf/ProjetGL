@@ -1,0 +1,18 @@
+// Description:
+//    test d'affichage
+//   
+// Résultats:
+//    la réponse est : 
+//    x = 42
+//  
+//
+// Historique:
+//    cree le 24/01/2022
+
+{
+    int n = 42;
+    print("la ");
+    print("réponse ");
+    println("est : ");
+    println("x = ", n);
+}

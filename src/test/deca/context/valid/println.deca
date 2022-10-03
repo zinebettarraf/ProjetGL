@@ -1,0 +1,15 @@
+// Description : 
+//	 test de la fonction println
+// Resultats :
+//	test1.00123
+//  
+//
+// Historique:
+//    cree le 08/01/2022
+{
+    float f = 1;
+    int i = 123;
+    int u;
+
+    println("test", f, u, i);
+}

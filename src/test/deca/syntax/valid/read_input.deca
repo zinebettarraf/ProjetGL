@@ -1,0 +1,13 @@
+// Description:
+//    test du syntax des méthodes de lecture 
+//
+// Resultats:
+//   
+//
+// Historique:
+//    cree le 22/01/2022
+
+{
+    float x = readFloat();
+    int i = readInt() ;
+}

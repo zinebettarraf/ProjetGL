@@ -1,0 +1,14 @@
+// Description:
+//    test de programme avec une declaration après l'instruction
+//
+// Resultats:
+//    13:12: no viable alternative at input 'c'
+//
+// Historique:
+//    cree le 08/01/2022
+
+
+{   
+    println("hello") ;
+    boolean c ;
+}

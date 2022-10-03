@@ -1,0 +1,23 @@
+// Description:
+//    test de la sélection doubke
+//
+// Resultats:
+//   
+//
+// Historique:
+//    cree le 19/01/2022
+
+class A {
+    int i ;
+}
+
+class B {
+    A a ;
+}
+
+{
+    B b = new B();
+    
+    b.a.i  ;
+}
+

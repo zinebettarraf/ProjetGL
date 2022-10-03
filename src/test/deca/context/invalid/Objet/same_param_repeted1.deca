@@ -1,0 +1,20 @@
+// Description:
+//    test de faire répéter le même paramètre deux fois dans une méthode 
+//
+// Resultats:
+//  12:12: Arguments in a function must be different 
+//
+// Historique:
+//    cree le 20/01/2022
+
+class A  {
+    int i ;
+    int get(int i , int i){}
+    
+}
+
+
+{}
+
+
+

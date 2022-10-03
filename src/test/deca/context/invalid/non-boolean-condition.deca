@@ -1,0 +1,12 @@
+// Description : 
+//	 test de mettre non boolean variable dans la conditon if
+// Resultats :
+//	 9:7: Condition must be of type boolean
+
+{
+    float f = 0.5;
+
+    if(f){
+        println("I shouldn't print this");
+    }
+}

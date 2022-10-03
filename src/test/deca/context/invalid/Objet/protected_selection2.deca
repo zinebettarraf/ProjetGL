@@ -1,0 +1,24 @@
+// Description:
+//    essayer d'accéder à un champ protégé par sélection 
+//
+// Resultats:
+//  17:15: The type of the expression to which the selection is applied must be a subtype of the current class
+//
+// Historique:
+//    cree le 20/01/2022
+
+class A  {
+    protected int i ;
+
+}
+
+class B extends A {
+    int get(A a){
+        return a.i ;
+    }
+}
+
+{}
+
+
+

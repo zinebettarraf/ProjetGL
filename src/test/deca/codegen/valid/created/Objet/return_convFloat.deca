@@ -1,0 +1,23 @@
+// Description:
+//    test de la conversion en float en return 
+//
+// Resultats:
+//    4.00000e+00
+//
+// Historique:
+//    cree le 21/01/2022
+
+class A {
+    int i = 2 ;
+    float m(float f){
+        return i*f ;
+    }
+}
+
+
+
+{   
+    A a= new A() ;
+
+    println(a.m(2.0)) ;
+}

@@ -1,0 +1,16 @@
+// Description:
+//    test du syntax d'affichage antislash
+//
+// Resultats:
+//   
+//
+// Historique:
+//    cree le 22/01/2022
+
+
+    
+{
+    println("hello //je suis un commentaire ?") ;
+
+}
+

@@ -1,0 +1,13 @@
+// Description:
+//    test du syntax d'affichage d'un entier 
+//
+// Resultats:
+//   
+//
+// Historique:
+//    cree le 22/01/2022
+
+{
+    int i ;
+    println(i) ;
+}

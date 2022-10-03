@@ -1,0 +1,12 @@
+// Description:
+//    test de programme avec lvalue incorrect 2
+//
+// Resultats:
+//    11:16: left-hand side of assignment is not an lvalue
+//
+// Historique:
+//    cree le 08/01/2022
+
+{
+    return( i = 1 = 1 ) ;
+}

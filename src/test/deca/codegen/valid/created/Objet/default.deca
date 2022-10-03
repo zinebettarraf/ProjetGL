@@ -1,0 +1,23 @@
+//Testing default Values
+
+class A {
+	int a = 7;
+	boolean val;
+}
+
+class B extends A{
+	A m;
+    A t = new A();
+}
+
+{
+	B b = new B();
+	
+	if (b.m == null){
+		println("default value's cool");
+	}
+	
+	if (!(b.t.val)){
+		println("correct!");
+	}
+}

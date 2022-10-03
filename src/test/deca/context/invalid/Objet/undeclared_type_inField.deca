@@ -1,0 +1,18 @@
+// Description:
+//    test de choisir un type non déclaré comme type d'attribut d'une classe
+//
+// Resultats:
+//   11:4: The type B  is not authorized     
+//
+// Historique:
+//    cree le 20/01/2022
+
+class A {
+    B b ;
+    
+}
+
+{}
+
+
+

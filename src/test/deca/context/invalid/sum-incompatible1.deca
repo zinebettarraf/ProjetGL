@@ -1,0 +1,11 @@
+// Description : 
+//	 test d'effectuer une opération arithmétique sur les booleans 2
+// Resultats :
+//	 10:8: The two operands are not of the compatible types for the binary Operation
+
+
+{
+    float x = 1.44;
+
+    x = x + false;
+}

@@ -1,0 +1,10 @@
+// Description : 
+//	 test assign float <-- float
+// Resultats :
+//	
+//
+// Historique:
+//    cree le 08/01/2022
+{
+	float f = 0.5;
+}

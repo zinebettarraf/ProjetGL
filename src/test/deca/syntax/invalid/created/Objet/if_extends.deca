@@ -1,0 +1,21 @@
+// Description:
+//    test de programme syntaxiquement incorrect (heritage condition)
+//
+// Resultats:
+//    18:9:  extraneous input 'class' expecting {'false', 'new', 'null', 'readInt', 'readFloat', 'this', 'true', IDENT, INT, '-', '!', '(', FLOAT, STRING}
+//
+// Historique:
+//    cree le 20/01/2022
+
+
+class A  {}
+
+class B {}
+
+
+
+{
+    if ( class A extends class B ) {
+        println ("je dois pas être affiché");
+    }
+}

@@ -1,0 +1,17 @@
+// Description:
+//    test de l'héritage d'une classe
+//
+// Resultats:
+//   
+//
+// Historique:
+//    cree le 19/01/2022
+
+class A {
+    
+}
+
+class B extends A{
+    
+}
+

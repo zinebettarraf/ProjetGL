@@ -1,0 +1,24 @@
+// Description:
+//    test de faire redéfinition d'une méthode mais avec signature différente
+//
+// Resultats:
+//  17:4: The method is already defined in a super class but with a diffrent signature
+//
+// Historique:
+//    cree le 20/01/2022
+
+class A  {
+    int i ;
+    int get(int i , float b ){}
+    
+}
+
+class B extends A {
+
+    int get(int i , float b ){}
+
+}
+{}
+
+
+

@@ -1,0 +1,17 @@
+// Description:
+//    test du syntax de not
+//
+// Resultats:
+//   
+//
+// Historique:
+//    cree le 22/01/2022
+
+{
+    int i ; 
+    boolean c ;
+    if (i != 1){
+        c = !c ;
+    }
+
+}

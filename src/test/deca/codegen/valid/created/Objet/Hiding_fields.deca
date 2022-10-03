@@ -1,0 +1,23 @@
+// Description:
+//    test de l'héritage des champs
+//
+// Resultats:
+//    ça marche
+//
+// Historique:
+//    cree le 21/01/2022
+
+class A {
+    int i ;
+    
+}
+
+class B extends A{
+    float i ;
+}
+
+{   
+    A a= new A() ;
+    B b = new B();
+    println("ça marche");
+}

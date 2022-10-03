@@ -1,0 +1,27 @@
+// Description:
+//    test d'accéder un champ hérité et initialisé
+//
+// Resultats:
+//    2
+//    1 
+//    3.20000e+00
+//
+// Historique:
+//    cree le 21/01/2022
+
+class A {
+    int i = 1;
+}
+
+class B extends A {
+    int j = 2 ;
+    float f = 1.2 ;
+}
+
+{   
+    B b = new B();
+    println(b.j );
+    println(b.i); 
+    println (b.f) ;
+
+}

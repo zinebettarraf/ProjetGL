@@ -1,0 +1,19 @@
+// Description:
+//    test de choisir un type non déclaré comme type de paramètre d'une méthode 
+//
+// Resultats:
+//   12:14: The type B  is not authorized  
+//
+// Historique:
+//    cree le 20/01/2022
+
+class A {
+    int i ;
+    void get (B b){}
+    
+}
+
+{}
+
+
+

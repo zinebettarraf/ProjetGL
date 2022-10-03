@@ -1,0 +1,19 @@
+// Description:
+//    test de l'affectation d'une classe à null
+//
+// Resultats:
+//    ça marche
+//
+// Historique:
+//    cree le 21/01/2022
+
+class A {}
+
+
+
+{   
+    A a= null ;
+    if( a == null){
+        println("ça marche");
+    }
+}

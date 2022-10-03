@@ -1,0 +1,27 @@
+// Description:
+//    test de faire changer le type de retour d'une méthode dans une classe qui l'hérite
+//
+// Resultats:
+//  20:4: The method is already defined in a super class but  with a diffrent return type
+//
+// Historique:
+//    cree le 20/01/2022
+
+
+class A {
+    int i ;
+    int get() {
+        return i ;
+    }
+}
+
+class B extends A {
+    float f ;
+    float get(){
+        return f ;
+    }
+}
+{}
+
+
+

@@ -1,0 +1,43 @@
+class A {
+	int a = 7;
+	int b = 8;
+	int c = 9;
+	int d;
+	int e = 25;
+	int f = 17;
+	boolean val = true;
+	
+}
+
+class B extends A {
+	A elt = new A();
+	boolean value;
+	int toRet = 77;
+	
+	int get(){
+		return this.toRet;	
+	}
+}
+
+class M {
+	B att = new B();
+	int t = 22;
+	
+	B getAtt(){
+		return this.att;
+	}
+}
+
+{
+
+	M m = new M();
+	int x = m.getAtt().get();
+	
+	if (m.getAtt().value){
+		println("shouldn't be printed");
+	}
+	else{
+		println("it's good");
+	}
+	
+}

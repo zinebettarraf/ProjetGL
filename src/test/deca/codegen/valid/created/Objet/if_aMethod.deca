@@ -1,0 +1,27 @@
+// Description:
+//    test lorsque une méthode dans une condition if
+//
+// Resultats:
+//    ça marche 
+//
+// Historique:
+//    cree le 21/01/2022
+
+class A {
+    boolean c = true ;
+    boolean get(){
+        return this.c ;
+    }
+}
+
+
+
+{   
+    
+    A a = new A();
+    if(a.get()){
+    println("ça marche") ;
+
+    }
+
+}

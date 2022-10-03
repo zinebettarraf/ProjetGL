@@ -1,0 +1,20 @@
+// Description:
+//    test pour lecture d'entier
+//
+// Resultats
+//    premier entier lu
+//    deuxième entier lu
+//    somme des deux    
+//
+// Historique:
+//    cree le 15/01/2022
+
+{
+    int x = readInt();
+    int y;
+
+    y = readInt();
+    println(x);
+    println(y);
+    println(x+y);
+}

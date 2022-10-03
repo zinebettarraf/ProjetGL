@@ -1,0 +1,27 @@
+// Description:
+//    test d'initialisation et affectation de flottants 
+//   
+// Résultats:
+//    3.500000
+//    3.500000
+//    0.499878
+//    0.499878
+//    0.200000
+//    0.200000
+//
+// Historique:
+//    cree le 24/01/2022
+
+{
+    float a = 3.5;
+    float b = 0x1.ffep-2;
+    float c;
+
+    c = 0.2;
+    println(a);
+    printlnx(a);
+    println(b);
+    printlnx(b);
+    println(c);
+    printlnx(c);
+}

@@ -1,0 +1,21 @@
+// Description:
+//    test invalid cast 
+//
+// Resultats:
+//  non compatible types for casting
+//
+// Historique:
+//    cree le 23/01/2022 
+
+class A {
+
+}
+
+
+
+{
+      A a;
+      int b = (int)(a);
+
+
+}

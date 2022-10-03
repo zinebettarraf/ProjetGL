@@ -1,0 +1,13 @@
+// Description:
+//    test du syntax de l'instruction return
+//
+// Resultats:
+//   
+//
+// Historique:
+//    cree le 22/01/2022
+
+{
+    boolean c ;
+    return c = 4 < 5 ;
+}

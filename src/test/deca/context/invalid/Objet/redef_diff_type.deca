@@ -1,0 +1,22 @@
+// Description:
+//    test de faire redéfinition d'une méthode mais avec un type de retour différent 
+//
+// Resultats:
+//  17:4: The method is already defined in a super class but  with a diffrent return type
+//
+// Historique:
+//    cree le 20/01/2022
+
+class A  {
+    int i ;
+    int get(){}
+    
+}
+
+class B extends A {
+    boolean get() {}
+}
+{}
+
+
+

@@ -1,0 +1,26 @@
+// Description:
+//    test de faire une affectation non compatible dans une méthode d'une classe 
+//
+// Resultats:
+//  15:17: Non compatible assignment of expression
+//
+// Historique:
+//    cree le 20/01/2022
+
+class A  {
+    int i ;
+    boolean b ;
+    
+    void test() {
+        this.i = this.b ;
+    }
+}
+
+
+
+{
+
+}
+
+
+

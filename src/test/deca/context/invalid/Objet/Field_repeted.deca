@@ -1,0 +1,22 @@
+// Description:
+//    test de faire répéter le même chemin
+//
+// Resultats:
+//  12:8:  The identifier i is already used for  a  method or a field in the same class
+//
+// Historique:
+//    cree le 20/01/2022
+
+class A  {
+    int i ;
+    int i ;
+    
+    
+}
+
+
+
+{}
+
+
+

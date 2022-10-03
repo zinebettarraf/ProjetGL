@@ -1,0 +1,26 @@
+// Description:
+//    test du syntax d'une classe faisant appel à elle-même
+//
+// Resultats:
+//   
+//
+// Historique:
+//    cree le 19/01/2022
+
+class A {
+    int i ;
+
+    void get(){
+        this.get();
+        get();
+    }
+    
+}
+
+{
+    A a = new A();
+    a.get();
+}
+
+
+

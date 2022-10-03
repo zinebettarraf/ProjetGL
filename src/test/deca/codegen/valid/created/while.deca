@@ -1,0 +1,21 @@
+// Description:
+//    tests de while
+//
+// Resultats:
+//    1
+//    2
+//    3
+//    
+// 
+// Historique:
+//    cree le 15/01/2022
+
+
+{
+    int x = 1 ;
+    while (x < 4){
+        println(x);
+        x = x + 1 ;
+    }
+
+}

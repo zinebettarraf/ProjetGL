@@ -1,0 +1,16 @@
+// Description:
+//    test invalid return type  
+//
+// Resultats:
+//  The return of the method is void
+//
+// Historique:
+//    cree le 23/01/2022 
+
+class A {
+    void fct(int x){
+          return 1;
+    }
+
+}
+

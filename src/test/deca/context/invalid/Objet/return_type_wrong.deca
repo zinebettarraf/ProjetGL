@@ -1,0 +1,20 @@
+// Description:
+//    test de faire une sélection mais de type différent 
+//
+// Resultats:
+//  16:16: Non compatible assignment of expression
+//
+// Historique:
+//    cree le 20/01/2022
+
+class A   {
+    int get(){}
+}
+
+{
+    A a  ; 
+    boolean b = a.get();
+}
+
+
+

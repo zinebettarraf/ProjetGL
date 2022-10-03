@@ -1,0 +1,22 @@
+// Description:
+//    test du cast 3
+//
+// Resultats:
+//
+//
+// Historique:
+//    cree le 20/01/2022
+
+
+class A{
+
+}
+class B extends A {
+
+}
+{  
+   B b;
+   A a = (A) (b);
+   println("ok");
+  
+ }

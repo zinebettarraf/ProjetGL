@@ -1,0 +1,15 @@
+// Description:
+//    test du syntax de la condition if avec des expressions 1
+//
+// Resultats:
+//   
+//
+// Historique:
+//    cree le 22/01/2022
+
+{
+    float x = 4.20 ;
+    if (readFloat()) {
+        println("hello") ;
+    }
+}

@@ -1,0 +1,13 @@
+// Description:
+//    test du syntax d'affichage d'un flottants 
+//
+// Resultats:
+//   
+//
+// Historique:
+//    cree le 22/01/2022
+
+{
+    float x ;
+    println(x);
+}

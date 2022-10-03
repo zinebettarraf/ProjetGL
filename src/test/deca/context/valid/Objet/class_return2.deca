@@ -1,0 +1,16 @@
+// Description:
+//    test du renvoi dans une classe avec this
+//
+// Resultats:
+//   
+//
+// Historique:
+//    cree le 18/01/2022
+
+class A {
+    int i ;
+    int getA(){
+        return this.i;
+    }
+}
+

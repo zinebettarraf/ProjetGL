@@ -1,0 +1,21 @@
+// Description:
+//    test indefined Field
+//
+// Resultats:
+//  The field field is not defined for the selected objet
+//
+// Historique:
+//    cree le 23/01/2022 
+
+
+
+
+class A  {
+    int x;    
+}
+
+class B {
+     A a = new A();
+     int x= a.field;
+}
+

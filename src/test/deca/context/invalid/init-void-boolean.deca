@@ -1,0 +1,7 @@
+// Description : 
+//	 test d'initialisation void <-- boolean
+// Resultats :
+//	 6:1: we can't declare an identifier with type void
+{
+	void n = true;
+}

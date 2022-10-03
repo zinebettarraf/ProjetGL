@@ -1,0 +1,12 @@
+// Description : 
+//	 test affectation float <-- int
+// Resultats :
+//
+// Historique:
+//    cree le 08/01/2022
+//	 
+{
+	float f;
+	int i;
+	f = i;
+}

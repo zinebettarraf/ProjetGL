@@ -1,0 +1,88 @@
+	TSTO #4
+	BOV pile_pleine
+	ADDSP #4
+; start main program
+	LOAD #null, R0
+	STORE R0, 1(GB)
+	LOAD code.Object.equals, R0
+	STORE R0, 2(GB)
+; Main program
+; Variables declarations:
+	LOAD #1, R2
+	STORE R2, 3(GB)
+	LOAD #0, R2
+	STORE R2, 4(GB)
+	LOAD 3(GB), R2
+	CMP #0, R2
+	BNE fin1
+	LOAD 4(GB), R2
+	CMP #0, R2
+	BEQ result1
+fin1:
+	LOAD #1, R2
+	BRA result2
+result1:
+	LOAD #0, R2
+result2:
+	STORE R2, 5(GB)
+	LOAD 3(GB), R2
+	CMP #0, R2
+	BEQ result3
+	LOAD 4(GB), R2
+	CMP #0, R2
+	BEQ result3
+	LOAD #1, R2
+	BRA result4
+result3:
+	LOAD #0, R2
+result4:
+	STORE R2, 6(GB)
+; Beginning of main instructions:
+	LOAD 5(GB), R2
+	CMP #0, R2
+	BEQ sinon1
+	WSTR "c est true"
+	WNL
+	BRA fin2
+sinon1:
+	WSTR "c est false"
+	WNL
+fin2:
+	LOAD 6(GB), R2
+	CMP #0, R2
+	BEQ sinon2
+	WSTR "b est true"
+	WNL
+	BRA fin3
+sinon2:
+	WSTR "d est false"
+	WNL
+fin3:
+	HALT
+; Error messages : stack
+pile_pleine:
+	WSTR "Erreur: overflow de la pile"
+	WNL
+	ERROR
+; Error messages : operations
+op_overflow:
+	WSTR "Erreur: overflow pendant le calcul"
+	WNL
+	ERROR
+io_error:
+	WSTR "Error; Input/Output error"
+	WNL
+	ERROR
+; Classes Definitions
+init.Object:
+	RTS
+code.Object.equals:
+	TSTO #1
+	BOV pile_pleine
+	PUSH R2
+	LOAD -2(LB), R2
+	CMP -3(LB), R2
+	SEQ R0
+	POP R2
+	RTS
+; end main program

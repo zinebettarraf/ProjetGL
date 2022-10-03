@@ -1,0 +1,29 @@
+// Description:
+//    test lorsque une méthode dans une condition if
+//
+// Resultats:
+//    1
+//    2
+//    3
+//    4
+// Historique:
+//    cree le 21/01/2022
+
+class A {
+    int i = 1 ;
+    int get(){
+        return this.i ;
+    }
+}
+
+
+
+{   
+    
+    A a = new A();
+    while (a.get() <5){
+        println(a.get()) ;
+        a.i = a.i +1 ;
+    }
+
+}

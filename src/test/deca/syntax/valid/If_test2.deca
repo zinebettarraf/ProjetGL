@@ -1,0 +1,15 @@
+// Description:
+//    test du syntax de la condition if avec des expressions 2
+//
+// Resultats:
+//   
+//
+// Historique:
+//    cree le 22/01/2022
+
+{
+    
+    if ("hi") {
+        println("hello") ;
+    }
+}

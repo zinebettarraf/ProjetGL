@@ -1,0 +1,16 @@
+// Description:
+//    test de faire utiliser "this" dans le main
+//
+// Resultats:
+//  12:4: this is only used inside class to refer the object
+//
+// Historique:
+//    cree le 20/01/2022
+
+{   
+    int i = 1 ;
+    this.i = 2 ;
+}
+
+
+

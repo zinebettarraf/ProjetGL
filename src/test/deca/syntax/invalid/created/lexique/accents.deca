@@ -1,0 +1,21 @@
+// Description:
+//    test de programme incorrect lexicalement (caractères non supportés)
+//
+// Resultats:
+//    lignes 10-18 : Erreur, caractère non reconnu
+//
+// Historique:
+//    cree le 08/01/2022
+
+'
+:
+?
+ù
+é
+è
+à
+ç
+µ
+ê
+ë
+e²

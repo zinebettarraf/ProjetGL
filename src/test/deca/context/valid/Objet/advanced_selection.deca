@@ -1,0 +1,40 @@
+// Description:
+//    test de la sélection dans une expression
+//
+// Resultats:
+//   
+//
+// Historique:
+//    cree le 18/01/2022
+
+class A {
+    int i ;
+    int get(){
+        return i ;
+    }
+    void set(int i){
+        this.i = i ;
+    }
+}
+
+class B {
+    A a ;
+    A getA(){
+        return this.a ;
+    }
+    void setA(A a){
+        this.a=a ;
+    }
+}
+
+{
+    int j ;
+    B b = new B();
+    b.a = new A();
+
+    b.a.set(2);    
+
+    j = b.getA().get();
+    println(j);
+}
+

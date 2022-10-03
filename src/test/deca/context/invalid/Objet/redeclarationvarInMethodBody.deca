@@ -1,0 +1,19 @@
+// Description:
+//    test invalid redeclaration of  a variable in the same method 
+//
+// Resultats:
+//  Redeclaration of the variable  y
+//
+// Historique:
+//    cree le 23/01/2022 
+
+class A {
+    void fct(int x){
+        int y;
+        int y;
+
+    }
+
+}
+
+

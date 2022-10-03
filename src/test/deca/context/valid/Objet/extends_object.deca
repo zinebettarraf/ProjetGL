@@ -1,0 +1,16 @@
+// Description:
+//    test d'hériter de la classe Objet
+//
+// Resultats:
+//   
+//
+// Historique:
+//    cree le 18/01/2022
+
+class A extends Object {
+
+}
+
+{
+    
+}

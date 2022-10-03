@@ -1,0 +1,27 @@
+// Description:
+//    test du syntax de la condition boucle plusieurs fois
+//
+// Resultats:
+//   
+//
+// Historique:
+//    cree le 22/01/2022
+
+{
+    int i ;
+    while (i < 5){
+
+        println("hi");
+        print (i);
+        i = i + 1 ;
+
+        if (i != 3){
+        println("hello");
+        }else {
+            while(i > 0){
+                println("salut");
+            }
+        }
+    }
+
+}

@@ -1,0 +1,7 @@
+// Description : 
+//	 test d'initialisation float <-- boolean
+// Resultats :
+//	 6:11: Non compatible assignment of expression
+{
+	float f = true;
+}

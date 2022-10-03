@@ -1,0 +1,39 @@
+// Description:
+//    tests de conditions if-then-else et comparaison
+//
+// Resultats:
+//    bravo 1 inférieur à 4
+//    a diff de b 
+//    a diff de b 
+//    
+// 
+// Historique:
+//    cree le 15/01/2022
+
+
+{
+    int a = 1 ; 
+    int b = 4 ;
+
+    if (a<b){
+        println("bravo " , 1 , " inférieur à ", 4 );
+    } else if ( a > b ){
+        println("regarde bien!");
+    }
+    else {
+        println("Dommage !! ");
+    }
+
+    if ( a != b){
+        println("a diff de b ");
+    } else {
+        println("Resultat faux");
+    }
+
+    if (a == b ){
+        println("Resultat faux");
+    } else{
+        println("a diff de b");
+    }
+
+}

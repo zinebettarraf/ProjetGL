@@ -1,0 +1,29 @@
+// Description:
+//    test du syntax de la condition if plusieurs fois
+//
+// Resultats:
+//   
+//
+// Historique:
+//    cree le 22/01/2022
+
+{
+    
+    if ("hi") {
+        if (readFloat()){
+            if (1<1.1){
+                println("hello") ;
+            } else{
+                println("holla") ;
+            }
+        }else {
+            println("salam");
+        }
+    } else if (true){
+        println(salut) ;
+
+    }
+    else{
+        println("bye"); 
+    }
+}

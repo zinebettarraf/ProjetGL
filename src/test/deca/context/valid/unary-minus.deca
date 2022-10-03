@@ -1,0 +1,14 @@
+// Description : 
+//	 test de l'opérateur unitaire minus
+// Resultats :
+//	
+//  
+//
+// Historique:
+//    cree le 08/01/2022
+{
+    int a;
+    float f;
+
+    f = -a + 1;
+}

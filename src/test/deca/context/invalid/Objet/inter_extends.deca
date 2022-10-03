@@ -1,0 +1,19 @@
+// Description:
+//    test de faire de l'héritage mutuel entre deux classes
+//
+// Resultats:
+//  10:6: The extended class  B does not exist
+//
+// Historique:
+//    cree le 20/01/2022
+
+class A  extends B {
+    int entier;  
+    
+}
+class B extends A {
+}
+{}
+
+
+

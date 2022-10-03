@@ -1,0 +1,9 @@
+// Description : 
+//	 test affectation int <-- boolean
+// Resultats :
+//	 8:5: Non compatible assignment of expression
+{
+	int i;
+	boolean b;
+	i = b;
+}

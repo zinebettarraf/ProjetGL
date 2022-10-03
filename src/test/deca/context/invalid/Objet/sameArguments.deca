@@ -1,0 +1,18 @@
+// Description:
+//    test same parameters in a method 
+//
+// Resultats:
+//  Arguments in a function must be different 
+//
+// Historique:
+//    cree le 23/01/2022 
+
+class A {
+    void fct(int x,int x){
+        int y;
+
+    }
+
+}
+
+

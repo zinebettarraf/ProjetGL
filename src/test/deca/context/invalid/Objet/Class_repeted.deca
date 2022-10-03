@@ -1,0 +1,22 @@
+// Description:
+//    test de faire répéter la même classe 
+//
+// Resultats:
+//  16:6: The class A has already been declared
+//
+// Historique:
+//    cree le 20/01/2022
+
+class A  {
+    int i ;
+    
+    
+}
+
+class A {}
+
+
+{}
+
+
+

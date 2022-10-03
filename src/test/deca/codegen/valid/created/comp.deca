@@ -1,0 +1,27 @@
+{
+	int m1 = 7;
+	int m2 = 8;
+	if (m1 >= m2){
+		println("Noo");
+	}
+	
+	if (m1 == m2){
+		println("Also Nooo");
+	}
+	
+	if (m1 <= m2){
+		println("Yesss!");
+	}
+	
+	if (m1 > m2){
+		println("Noo2");
+	}
+	
+	if (m1 != m2){
+		println("Correct");
+	}
+	
+	if (m1 < m2){
+		println("Yesss2!");
+	}
+}

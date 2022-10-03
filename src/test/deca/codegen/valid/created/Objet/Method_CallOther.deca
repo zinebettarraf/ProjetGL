@@ -1,0 +1,29 @@
+// Description:
+//    test de la création dune méthode qui appelle une autre 
+//
+// Resultats:
+//    ça
+//    marche
+//
+// Historique:
+//    cree le 21/01/2022
+
+class A {
+    int i = 1 ;
+    void get2(){
+        println("marche");
+    }
+    void get(){
+        println("ça");
+        get2() ;
+
+    }
+
+}
+
+
+
+{   
+    A a= new A() ;
+    a.get();
+}

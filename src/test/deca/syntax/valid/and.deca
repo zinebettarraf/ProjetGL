@@ -1,0 +1,14 @@
+// Description:
+//    test du syntax de &
+//
+// Resultats:
+//   
+//
+// Historique:
+//    cree le 22/01/2022
+
+{
+        
+    boolean c = (1 < 2 && 4<5) ;
+
+}

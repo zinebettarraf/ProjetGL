@@ -1,0 +1,13 @@
+// Description:
+//    test de programme avec string non fermé
+//
+// Resultats:
+//    12:12: token recognition error at: '"hello) ;\n}
+//
+// Historique:
+//    cree le 08/01/2022
+
+
+{   
+    println("hello) ;
+}

@@ -1,0 +1,18 @@
+// Description:
+//    test du syntax de la condition boucle 2
+//
+// Resultats:
+//   
+//
+// Historique:
+//    cree le 22/01/2022
+
+{
+    int i ;
+    while (i = 5){
+        println("hi");
+        print (i);
+        i = i + 1 ;
+    }
+
+}

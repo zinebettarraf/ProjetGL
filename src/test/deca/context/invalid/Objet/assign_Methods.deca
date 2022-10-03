@@ -1,0 +1,27 @@
+// Description:
+//    test de faire une affectation non valide entre méthodes 
+//
+// Resultats:
+//  16:8: we can't assign a value to a method
+//
+// Historique:
+//    cree le 20/01/2022
+
+class A  {
+    int i ;
+    void get(){}
+    void set(){}
+    
+    void test() {
+        get = set ;
+    }
+}
+
+
+
+{
+
+}
+
+
+

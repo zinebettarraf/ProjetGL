@@ -1,0 +1,27 @@
+// Description:
+//    test de faire rentrer les paramètre de type faux
+//
+// Resultats:
+//  22:4: The method set is called with a wrong signature 
+//
+// Historique:
+//    cree le 20/01/2022
+
+class A  {
+    int i ;
+    void set(int j){
+        this.i = j ;
+    }
+
+}
+
+
+
+{
+    A a = new A() ;
+    a.set(false) ;
+
+}
+
+
+

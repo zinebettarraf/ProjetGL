@@ -1,0 +1,18 @@
+// Description:
+//    test pour plusieurs opérateurs arithmétiques 
+//
+// Resultats:
+//  
+//
+//  10
+//  1.70000e+01
+// Historique:
+//    cree le 15/01/2022
+
+{
+
+   println(4*5/2) ; 
+   println(5 - 4 + 3 / 3 * 6.0 - (1.0*2));
+
+
+}

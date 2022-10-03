@@ -1,0 +1,20 @@
+// Description:
+//    test de programme syntaxiquement incorrect (instanceof prend null)
+//
+// Resultats:
+//    19:21: mismatched input 'null' expecting IDENT
+//
+// Historique:
+//    cree le 20/01/2022
+
+
+class A  {}
+
+
+
+
+{
+    A a = new A () ;
+    boolean b ;
+    b = a instanceof null    ;
+}

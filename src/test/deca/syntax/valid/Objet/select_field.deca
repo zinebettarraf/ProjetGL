@@ -1,0 +1,21 @@
+// Description:
+//    test de la sélection d'un attribut d'une classe
+//
+// Resultats:
+//   
+//
+// Historique:
+//    cree le 19/01/2022
+
+class A {
+    int i ;
+}
+
+
+
+{
+    A a =new A() ;
+    a.i ;
+
+}
+

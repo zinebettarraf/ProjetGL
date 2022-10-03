@@ -1,0 +1,23 @@
+// Description:
+//    test de faire une affectation non compatible dans une méthode d'une classe 
+//
+// Resultats:
+//  19:8: Non compatible assignment of expression
+//
+// Historique:
+//    cree le 20/01/2022
+
+class A  {
+    int i ;
+    
+}
+
+
+
+{
+    A a = new A() ;
+    a = 1 ;
+}
+
+
+

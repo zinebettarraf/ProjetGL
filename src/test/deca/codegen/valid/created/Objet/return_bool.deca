@@ -1,0 +1,25 @@
+// Description:
+//    test du renvoie des booleans 
+//
+// Resultats:
+//    ça marche 
+//
+// Historique:
+//    cree le 21/01/2022
+
+class A {
+    int i = 2 ;
+    boolean m(int a){
+        return (i < a) ;
+    }
+}
+
+
+
+{   
+    A a= new A() ;
+    if( a.m(3)){
+        println("ça marche") ;
+    }
+    
+}

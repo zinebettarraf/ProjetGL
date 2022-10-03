@@ -1,0 +1,18 @@
+// Description:
+//    test de faire appel à une méthode inexistante 
+//
+// Resultats:
+//  14:4: The method set does not belong to the class A
+//
+// Historique:
+//    cree le 20/01/2022
+
+class A   {}
+
+{
+    A a  ; 
+    a.set() ;
+}
+
+
+

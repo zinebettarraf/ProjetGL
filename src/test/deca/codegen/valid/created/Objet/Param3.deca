@@ -1,0 +1,29 @@
+// Description:
+//    test de la création d'une méthode avec plusieurs paramètres
+//
+// Resultats:
+//    1
+//    3
+//    ça marche
+//
+// Historique:
+//    cree le 21/01/2022
+
+class A {
+    int i;
+    void get(int j , int k ){
+        println(j);
+        println(j+k);
+    }
+}
+
+
+
+{   
+    int k = 1 ;
+    int j = 2 ;
+    A a = new A();
+    
+    a.get(k , j) ;
+    println("ça marche") ;
+}

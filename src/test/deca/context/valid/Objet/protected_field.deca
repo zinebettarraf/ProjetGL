@@ -1,0 +1,17 @@
+// Description:
+//    test du type "protected" pour un attribut d'une classe
+//
+// Resultats:
+//   
+//
+// Historique:
+//    cree le 18/01/2022
+
+class A {
+    int i ;
+}
+
+class B {
+    protected A a ;
+}
+

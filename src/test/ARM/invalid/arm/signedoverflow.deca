@@ -1,0 +1,15 @@
+// Description:
+//    test d'overflow
+//   
+// Résultats:
+//    -2
+//
+// Historique:
+//    cree le 24/01/2022
+
+{
+    int m = 2147483647;    //2*31
+    int n = 2147483647;
+
+    println(m + n);
+}

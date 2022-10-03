@@ -1,0 +1,11 @@
+// Description : 
+//	 test d'affectation d'une valeur non déclarée
+// Resultats :
+//	
+//  
+//
+// Historique:
+//    cree le 08/01/2022
+{
+    int i = i;
+}

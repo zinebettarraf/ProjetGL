@@ -1,0 +1,21 @@
+// Description:
+//    test de programme syntaxiquement incorrect (héritage double)
+//
+// Resultats:
+//    5:18: mismatched input 'extends' expecting '{'
+//
+// Historique:
+//    cree le 20/01/2022
+
+
+class A  {}
+
+class B {}
+
+class C extends B extends A {
+    int i ;
+}
+
+{
+
+}

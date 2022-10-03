@@ -1,0 +1,32 @@
+// Description:
+//    tests de l'opérateur modulo
+//
+// Resultats:
+//    
+//4
+//1
+//1
+//0.00000e+00
+//
+// 
+// Historique:
+//    cree le 15/01/2022
+
+
+{
+    int y = 3;
+    int x = 10;
+    
+
+    int a = x % y;
+    float f  = x % x;
+
+
+    println(9%5);
+    println(9%4%2);
+    
+
+
+    println(a);
+    println(f);
+}
