@@ -12,7 +12,7 @@ Projet "Genie Logiciel", Software Engineering project for Ensimag , is a Java im
 - Experiment with agile development techniques: test-driven development, continuous integration, pair programming ;
 - Use development tools: Maven, Git, Jacoco ;
 
-**<u>*Software Engineering :*</u>**
+**<u>*Compilation :*</u>**
 
 - Application of the language theory course: implement a compiler
   for the Deca language ;
